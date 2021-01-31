@@ -24,9 +24,7 @@ p {
   font-size: 1.1em;
   text-shadow: 0 1px 0 rgba(0,0,0, .25);
 }
-#invited-list {
- /* display: inline-block; */
-}
+
 
 /* Form Elements */
 
@@ -74,7 +72,8 @@ button {
 header {
   color: white;
   text-align: center;
-  background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),               url('../images/header-bg.jpg') no-repeat;
+  background: linear-gradient(90deg, #d4eece, #55b3d0, #1e7eb7),
+              url('../images/header-bg.jpg') no-repeat;
   background-blend-mode: multiply;
   background-size: cover;
 }
@@ -110,8 +109,8 @@ header {
 }
 .guest button {
   font-size: 0.78em;
-  margin-top: 1.65em;
-  margin-right: 0.4em;
+  /* margin-top: 1.65em; */
+  /* margin-right: 0.4em; */
   border-radius: 0.3em;
   padding: 0.4em 0.6em;
   color: white;
@@ -192,9 +191,9 @@ header {
   }
   .guest-list {
     display: flex;
-    clear:  both;
     justify-content: space-between;
     flex-wrap: wrap;
+    clear: both;
     padding-top: 1.25em;
   }
   .guest {
